@@ -29,9 +29,38 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web util
 
  
 ## Oque será avaliado?
- - Habilidade com framwork de front-end e/ou back-end
+O desafio será avaliado através dos seguintes critérios.
+
+ - Habilidade com framework de front-end e/ou back-end
  - Habilidade em estilização de pagina HTML
  - POO
  - API-REST
  - Arquitetura do projeto
  - Banco de Dados seguindo as melhores práticas
+
+## Entrega
+
+ - O código possui algum controle de dependências?
+ - O resultado final está completo para ser executado?
+ - O resultado final atende ao que se propõe fazer?
+ - O resultado final atende totalmente aos requisitos propostos?
+
+## Boas Práticas
+
+ - O código está bem estruturado?
+ - O código está fluente na linguagem?
+ - O código faz o uso correto de Design Patterns?
+
+## Documentação
+
+ - O código foi entregue com um arquivo de README claro de como se guiar?
+ - O código possui comentários pertinentes?
+ - O código está em algum controle de versão?
+ - Os commits são pequenos e consistentes?
+ - As mensagens de commit são claras?
+
+## Código Limpo
+
+ - O código possibilita expansão para novas funcionalidades?
+ - O código é Don't Repeat Yourself?
+ - O código é fácil de compreender?
