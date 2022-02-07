@@ -6,7 +6,7 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web util
 # Tecnologias
  - ReactJS
  - Bootstrap, Material ou qualquer framework de estilização
- - PHP >= 7 (livre para usar qualquer framework)
+ - PHP >= 8 (livre para usar qualquer framework)
  - Postgress | MySQL
 
 ## Instruções da prova
