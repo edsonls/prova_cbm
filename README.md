@@ -18,8 +18,7 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web util
 ## Projeto
 
  - Existe uma API pública [(Link)](https://viacep.com.br/), que dado um determinado CEP, ela te retorna as informações do mesmo.  
- ![exemplo](https://www.imagemhost.com.br/images/2020/01/04/Screenshot_2020-01-04-ViaCEP---Webservice-CEP-e-IBGE-gratuito.png)
- - A partir das informações acima, desenvolva um sistema que consuma a API com cep válido seguindo modelo de tela/mockup de **referência** para aplicação ![](https://www.imagemhost.com.br/images/2020/01/04/Screenshot_2020-01-04-Prova-de-Selecao-Programador-Senior2727-pdf.png)
+ - A partir das informações acima, desenvolva um sistema que consuma a API com cep válido seguindo modelo de tela/mockup de **referência** para aplicação !
  - Crie uma estrutura de tabela na sua base de dados, para persistir as informações retornadas da API, de acordo com o protótipo de tela acima
  - Ao consultar um CEP verificar se já existe o CEP informado na base de dados local.
  - A partir da resposta recebidada API,salve em uma tabela de banco de dados as seguintes informações: *CEP, Logradouro, complemento, bairro, cidade, estado*
