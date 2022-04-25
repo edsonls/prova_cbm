@@ -11,15 +11,15 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web util
 
 ## Instruções da prova
 
- - O candidato deve fazer um **fork** desse repositório e criar sua estrutura de pastas sendo que no mesmo repositório tem que esta o **fron-end, back-end** e o sql contendo o **schema** do banco de dados.
+ - O candidato deve fazer um **fork** desse repositório e criar sua estrutura de pastas sendo que no mesmo repositório tem que esta o **fron-end, back-end** contendo o **migration** do banco de dados.
  - Após o projeto pronto o candidato deve fazer o *commit e push* para o seu repositório **não sendo necessário** solicitar um **pull-request**
  
 
 ## Projeto
 
  - Existe uma API pública [(Link)](https://viacep.com.br/), que dado um determinado CEP, ela te retorna as informações do mesmo.  
- - A partir das informações acima, desenvolva um sistema que consuma a API com cep válido seguindo modelo de tela/mockup de **referência** para aplicação !
- - Crie uma estrutura de tabela na sua base de dados, para persistir as informações retornadas da API, de acordo com o protótipo de tela acima
+ - A partir das informações acima, desenvolva um sistema que consuma a API com cep válido!
+ - Crie uma estrutura de tabela na sua base de dados, para persistir as informações retornadas da API.
  - Ao consultar um CEP verificar se já existe o CEP informado na base de dados local.
  - A partir da resposta recebidada API,salve em uma tabela de banco de dados as seguintes informações: *CEP, Logradouro, complemento, bairro, cidade, estado*
  - Crie a funcionalidade Editar, juntamente com o formulário, onde só será permitido alterar as informações *Logradouro, complemento, bairro, cidade, estado.*
@@ -32,10 +32,12 @@ O desafio será avaliado através dos seguintes critérios.
 
  - Habilidade com framework de front-end e/ou back-end
  - Habilidade em estilização de pagina HTML
- - POO
+ - Migrations
  - API-REST
  - Arquitetura do projeto
  - Banco de Dados seguindo as melhores práticas
+ - Docker
+ - Docker-compose
 
 ## Entrega
 
@@ -43,6 +45,8 @@ O desafio será avaliado através dos seguintes critérios.
  - O resultado final está completo para ser executado?
  - O resultado final atende ao que se propõe fazer?
  - O resultado final atende totalmente aos requisitos propostos?
+ - Existe Testes unitários ?
+ - Existe alguma implementação de CI/CD ?
 
 ## Boas Práticas
 
